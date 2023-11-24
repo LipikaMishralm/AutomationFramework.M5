@@ -9,6 +9,7 @@ public class TestNGPractice {
 	public void createCustomer() {
 		//Assert.fail();//this will fail the test script
 		System.out.println("create");
+		
 	}
 	
 	@Test(invocationCount = 2,dependsOnMethods = "createCustomer")
